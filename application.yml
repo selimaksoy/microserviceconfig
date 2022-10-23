@@ -17,3 +17,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder 
+  notification-service:
+    kafka:
+      topicname: notificationTopic
+        
